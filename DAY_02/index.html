@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Html Day 02</title>
+</head>
+<body>
+    <h2>HTML Comment</h2>
+    <p>To comment something or hide something on html we use comment. Syntax: <b>&lt;!-- content --&gt;</b></p>
+    <h2>HTML Links</h2>
+    <P>To define a link in HTML we use <b>&lt;a&gt;</b> tag with <b>href</b> attribute. Syntax: <b>&lt;a href="links"&gt; content &lt;&#47;a&gt;</b> </P>
+    <h2>HTML Image</h2>
+    <p>To show image in html we use <b>&lt;img&gt;</b> tag with <b>src and alt</b> attribute. Where <b>src</b>attribute value is source of image and <b>alt</b>attribute value alternative text of image. Syntax: <b>&lt;img src="source of image" alt="alternative text shown if the image doesn't load on browser."&gt;</b></p>
+    <p>Example:</p>
+    <img src="../images/programmer.jpg" alt="PC image" height="200px" width="300px">
+    <h2>HTML Image map</h2>
+    <p>If we want set multiple link on one image use <b>&lt;map&gt; tag</b>  with &lt;img&gt; tag. We select specific area for specific link.</p>
+    <p>Example:</p>
+    <img src="../images/pc.jpg" usemap="#image_map">
+<map name="image_map">
+  <area alt="monitor" title="monitor" href="https://www.startech.com.bd/monitor" coords="176,67,880,498" shape="rect">
+  <area alt="Speaker" title="Speaker" href="https://www.startech.com.bd/accessories/speaker-and-home-theater" coords="23,339,173,610" shape="rect">
+  <area alt="Speaker" title="Speaker" href="https://www.startech.com.bd/accessories/speaker-and-home-theater" coords="892,338,1043,612" shape="rect">
+  <area alt="Cpu casing" title="Cpu casing" href="https://www.startech.com.bd/component/casing" coords="1074,130,1270,613" shape="rect">
+  <area alt="Keyboard" title="Keyboard" href="https://www.startech.com.bd/accessories/keyboards" coords="76,644,851,867" shape="rect">
+  <area alt="mouse" title="mouse" href="https://www.startech.com.bd/accessories/mouse" coords="979,686 1031,788 1107,784 1062,683 979,688 979,695 979,691 979,691 979,691 979,691 " shape="polygon">
+</map>
+
+</body>
+</html>
