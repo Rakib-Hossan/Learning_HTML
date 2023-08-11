@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learning Html Day 02</title>
+    <link rel="shortcut icon" href="../images/programmer.jpg" type="image/x-icon">
 </head>
 <body>
     <h2>HTML Comment</h2>
@@ -18,14 +19,85 @@
     <p>If we want set multiple link on one image use <b>&lt;map&gt; tag</b>  with &lt;img&gt; tag. We select specific area for specific link.</p>
     <p>Example:</p>
     <img src="../images/pc.jpg" usemap="#image_map">
-<map name="image_map">
-  <area alt="monitor" title="monitor" href="https://www.startech.com.bd/monitor" coords="176,67,880,498" shape="rect">
-  <area alt="Speaker" title="Speaker" href="https://www.startech.com.bd/accessories/speaker-and-home-theater" coords="23,339,173,610" shape="rect">
-  <area alt="Speaker" title="Speaker" href="https://www.startech.com.bd/accessories/speaker-and-home-theater" coords="892,338,1043,612" shape="rect">
-  <area alt="Cpu casing" title="Cpu casing" href="https://www.startech.com.bd/component/casing" coords="1074,130,1270,613" shape="rect">
-  <area alt="Keyboard" title="Keyboard" href="https://www.startech.com.bd/accessories/keyboards" coords="76,644,851,867" shape="rect">
-  <area alt="mouse" title="mouse" href="https://www.startech.com.bd/accessories/mouse" coords="979,686 1031,788 1107,784 1062,683 979,688 979,695 979,691 979,691 979,691 979,691 " shape="polygon">
-</map>
-
+        <map name="image_map">
+          <area alt="monitor" title="monitor" href="https://www.startech.com.bd/monitor" coords="176,67,880,498" shape="rect">
+          <area alt="Speaker" title="Speaker" href="https://www.startech.com.bd/accessories/speaker-and-home-theater" coords="23,339,173,610" shape="rect">
+          <area alt="Speaker" title="Speaker" href="https://www.startech.com.bd/accessories/speaker-and-home-theater" coords="892,338,1043,612" shape="rect">
+          <area alt="Cpu casing" title="Cpu casing" href="https://www.startech.com.bd/component/casing" coords="1074,130,1270,613" shape="rect">
+          <area alt="Keyboard" title="Keyboard" href="https://www.startech.com.bd/accessories/keyboards" coords="76,644,851,867" shape="rect">
+          <area alt="mouse" title="mouse" href="https://www.startech.com.bd/accessories/mouse" coords="979,686 1031,788 1107,784 1062,683 979,688 979,695 979,691 979,691 979,691 979,691 " shape="polygon">
+        </map>
+    <h2>HTML Favicon</h2>
+    <p>A favicon is a small image displayed next to the page title in the browser tab. We set a favicon using link tag. </p>
+    <p>Example:</p>
+    <p> &lt;link rel="shortcut icon" href="source of favicon" type="image/x-icon"&gt;</p>
+   <h2>HTML Table</h2>
+   <p>To create a table in HTML we write <b>&lt;table&gt; tag</b>. To create row we write <b>&lt;tr&gt;tag</b>. To create column we write <b>&lt;td&gt;tag</b>. To set heading on table we write <b>&lt;th&gt;tag</b>.</p>
+   <p>Example:</p>
+   <table> 
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Hobby</th>
+    </tr>
+    <tr>
+      <td>Rakib</td>
+      <td>26</td>
+      <td>Coding</td>
+    </tr>
+    <tr>
+      <td>Akib</td>
+      <td>27</td>
+      <td>Traveling</td>
+    </tr>
+    <tr>
+      <td>Shakib</td>
+      <td>26</td>
+      <td>Singing</td>
+    </tr>
+   </table>
+   <h3>Html colspan and rowspan</h3>
+   <p>if we marge column in table we write colspan attribute and if we marge row in table we write rowspan attribute.</p>
+   <table>
+    <caption>Example of colspan</caption>
+    <tr>
+      <th>Name</th>
+      <th colspan="2">Model</th>
+      <th>price</th>
+    </tr>
+    <tr>
+      <td>Samsung</td>
+      <td>A54</td>
+      <td>A34</td>
+      <td>21500</td>
+    </tr>
+    <tr>
+      <td>Oneplus</td>
+      <td>A54</td>
+      <td>A54</td>
+      <td>31500</td>
+    </tr>
+   </table>
+   <br>
+   <br>
+   <table>
+    <caption>Example of rowspan</caption>
+    <tr>
+      <th>Name</th>
+      <th>Phone Model</th>
+      <th>Memory</th>
+      <th>price</th>
+    </tr>
+    <tr>
+      <td rowspan="2">Samsung</td>
+      <td rowspan="2">A34</td>
+      <td>6gb+128gb</td>
+      <td>21500</td>
+    </tr>
+    <tr>
+      <td>8gb+256gb</td>
+      <td>25500</td>
+    </tr>
+   </table>
 </body>
 </html>
