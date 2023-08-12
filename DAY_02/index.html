@@ -5,20 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learning Html Day 02</title>
     <link rel="shortcut icon" href="../images/programmer.jpg" type="image/x-icon">
+    <!-- external css example -->
+    <link rel="stylesheet" href="../DAY_02/style.css">
+    <!-- internal css style -->
+    <style>
+      table,th,td{
+        border: 1px solid tomato;
+        text-align: center;
+      }
+      th, td{
+        padding: 10px;
+      }
+    </style>
 </head>
 <body>
+    <!-- html comment -->
     <h2>HTML Comment</h2>
     <p>To comment something or hide something on html we use comment. Syntax: <b>&lt;!-- content --&gt;</b></p>
+    <!-- html links -->
     <h2>HTML Links</h2>
     <P>To define a link in HTML we use <b>&lt;a&gt;</b> tag with <b>href</b> attribute. Syntax: <b>&lt;a href="links"&gt; content &lt;&#47;a&gt;</b> </P>
     <p>We use link in button, image , email etc.</p>
     <p><b>To set a email in a links we use <strong>mailto:</strong> inside href attribute.</b></p>
     <p>Example: <a href="mailto:rakib.redoy01@gmail.com">SEND MAIL</a></p>
-
+    <!-- html image -->
     <h2>HTML Image</h2>
     <p>To show image in html we use <b>&lt;img&gt;</b> tag with <b>src and alt</b> attribute. Where <b>src</b>attribute value is source of image and <b>alt</b>attribute value alternative text of image. Syntax: <b>&lt;img src="source of image" alt="alternative text shown if the image doesn't load on browser."&gt;</b></p>
     <p>Example:</p>
     <img src="../images/programmer.jpg" alt="PC image" height="200px" width="300px">
+    <!-- Image map  -->
     <h2>HTML Image map</h2>
     <p>If we want set multiple link on one image use <b>&lt;map&gt; tag</b>  with &lt;img&gt; tag. We select specific area for specific link.</p>
     <p>Example:</p>
@@ -31,11 +46,28 @@
           <area alt="Keyboard" title="Keyboard" href="https://www.startech.com.bd/accessories/keyboards" coords="76,644,851,867" shape="rect">
           <area alt="mouse" title="mouse" href="https://www.startech.com.bd/accessories/mouse" coords="979,686 1031,788 1107,784 1062,683 979,688 979,695 979,691 979,691 979,691 979,691 " shape="polygon">
         </map>
+      <!-- html Favicon -->
     <h2>HTML Favicon</h2>
     <p>A favicon is a small image displayed next to the page title in the browser tab. We set a favicon using link tag. </p>
     <p>Example:</p>
     <p> &lt;link rel="shortcut icon" href="source of favicon" type="image/x-icon"&gt;</p>
-   <h2>HTML Table</h2>
+    <!-- html css  -->
+    <h2>HTML css</h2>
+    <p>There are three way to use css in html. Such as: 1.Inline 2.Internal 3.External</p>
+    <!-- inline css  -->
+    <h2>Inline css in Html</h2>
+    <p>To use inline css in html we used <b>style</b>attribute inside html element. Syntax: <b>&lt;tagName style="styleName:value"&gt;</b></p>
+    <p style="color:red">this is inline css example. by using inline css we change paragraph text color into red.</p>
+    <!-- internal css  -->
+    <h2>Internal css in html</h2>
+    <p>To use Internal css in html we used <b>&lt;style&gt; tag</b> inside <b>head tag</b></p>
+    <p>Example: we used internal css to look table more beautiful below.</p>
+    <!-- External css  -->
+    <h2>External css in html</h2>
+    <p>An external style sheet is used to define the style for many HTML pages.To use an external style sheet, add a link to it in the &lt;head&gt; section of each HTML page:</p>
+    <p>Example: we used external css to design button below.</p>
+    <!-- html table  -->
+    <h2>HTML Table</h2>
    <p>To create a table in HTML we write <b>&lt;table&gt; tag</b>. To create row we write <b>&lt;tr&gt;tag</b>. To create column we write <b>&lt;td&gt;tag</b>. To set heading on table we write <b>&lt;th&gt;tag</b>.</p>
    <p>Example:</p>
    <table> 
@@ -60,6 +92,7 @@
       <td>Singing</td>
     </tr>
    </table>
+   <!-- colspan and rowspan  -->
    <h3>Html colspan and rowspan</h3>
    <p>if we want to marge column in table we write colspan attribute and if we marge row in table we write rowspan attribute.</p>
    <table>
@@ -103,6 +136,8 @@
       <td>25500</td>
     </tr>
    </table>
+   <br>
+   <a href="../DAY_01/index.html"><button>Back to learn HTML (DAY_01)</button></a> 
    <a href="../DAY_03/index.html"><button>Continue to learn HTML (DAY_03)</button></a> 
 </body>
 </html>
