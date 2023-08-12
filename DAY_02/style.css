@@ -5,3 +5,12 @@ button{
     color:aliceblue;
     font-weight: bold;
 }
+.divExmple{
+    border:2px solid royalblue;
+}
+span{
+    border: 2px solid seagreen;
+}
+form{
+    padding: 10px;
+}

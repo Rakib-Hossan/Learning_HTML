@@ -65,17 +65,20 @@
         <dt>HTML</dt><!-- dt means Description term-->
         <dd>-Hyper Text Markup Language</dd> <!--dd means description data which describe the description term-->
     </dl>
-    <!-- block element  -->
+   <div class="divExmple">
+     <!-- block element  -->
     <h2>HTML Block Elements</h2>
     <p>A block element always takes up the full width available.</p>
     <!-- html div  -->
     <h2>HTML div element</h2>
     <p>In html we used <b>&lt;div&gt; tag</b> as a container. It is a block element.</p>
+    <p>Example of div: To see div is a block element we style div tag by border.</p>
+   </div>
     <!-- inline element  -->
     <h2>HTML inline Elements</h2>
     <p>An inline element only takes up as much width as necessary.</p>
     <!-- html span  -->
-    <h2>HTML span element</h2>
+    <h2><span>HTML span element</span></h2>
     <p>In html we used <b>&lt;span&gt; tag</b> as an inline container to mark up a part of a text, or a part of a document. It is an inline element.</p>
     <!-- html class  -->
     <h2>HTML class attribute</h2>
@@ -83,6 +86,77 @@
     <!-- html ID  -->
     <h2>HTML id Attribute</h2>
     <p>The HTML id attribute is used to specify a unique id for an HTML element. We cannot have more than one element with the same id in an HTML document. Syntax:<b>&lt;TagName id="Id_name"&gt;.</b></p>
-
+    <!-- html form  -->
+    <h2>Html form</h2>
+    <p>To collect data from user we used <b>&lt;form&gt; tag</b> to create form. </p>
+    <P>Login form </P>
+    <form>
+        <input type="email" name="email" placeholder="Enter your email"><br>
+        <input type="password" name="password" placeholder="Enter your password"><br>
+        <input type="submit" value="Login">
+    </form>
+    <!-- html label  -->
+    <h2>Html label</h2>
+    <p>The <b>&lt;label&gt;</b>tag defines a label for many form elements</p>
+    <!-- fieldset and legend Elements -->
+    <h2>The <b>&lt;fieldset&gt;</b> element is used to group related data in a form.The <b>&lt;legend&gt;</b> element defines a caption for the <b>&lt;fieldset&gt;</b> element.</h2>
+    <!-- html input element  -->
+    <h2>HTML input element</h2>
+    <p>There are many input type in html.Example are given below:</p>
+    <form>
+        <fieldset>
+            <legend>Sample form</legend>
+            <!-- input type text  -->
+        <input type="text" name="name" placeholder="Name"> <br>
+        <!-- input type password  -->
+        <input type="password" name="password" placeholder="password"><br>
+        <!-- input type email  -->
+        <input type="email" name="email" placeholder="email"><br>
+        <!-- input type number  -->
+        <input type="number" name="number" placeholder="number"><br>
+        <!-- input type color  -->
+        <input type="color" name="color" id=""><br>
+        <!-- input type date  -->
+        <input type="date" name="date" id=""><br>
+        <label for="fav"> Choose your favourite vichel </label><br>
+        <!-- input type checkbox  -->
+        <input type="checkbox" name="bike" id="fav">Bike
+        <input type="checkbox" name="car" id="fav">Car
+        <input type="checkbox" name="plane" id="fav">Plane
+        <br>
+        <br>
+        <label for="programming">Choose what you want to start 1st</label> <br>
+        <!-- input type radio -->
+        <input type="radio" name="programming" id="programming" value="html">Html
+        <input type="radio" name="programming" id="programming value="css">CSS
+        <input type="radio" name="programming" id="programming"value="JavaScript">JavaScript <br>
+        <br>
+        <!-- input type submit -->
+        <input type="submit" value="Submit">
+        <!-- input type reset -->
+        <input type="reset" value="Reset">
+        </fieldset>
+        
+    </form>
+    <!-- select element and option element -->
+    <h2>The <b>&lt;select&gt;</b> element defines a drop-down list. The <b>&lt;option&gt;</b> element defines an option that can be selected.</h2>
+    <form>
+        <label for="subject">Choose your favourite subject</label>
+        <select name="subject" id="subject">
+            <option value="Bangla">Bangla</option>
+            <option value="English">English</option>
+            <option value="Math">Math</option>
+        </select>
+    </form>
+    <!-- textarea element -->
+    <h2>The <b>&lt;textarea&gt;</textarea></b> element defines a multi-line input field</h2>
+    <form>
+        <label for="yourself"> Write about yourself</label>
+        <textarea name="" id="yourself" cols="30" rows="10"></textarea>
+    </form><br>
+    <!-- button element -->
+    <h2>To make a clickable button we used <b>&lt;button&gt;</b></h2><br>
+    <a href="../DAY_01/index.html"><button>Back to learn HTML (DAY_01)</button></a> 
+   <a href="../DAY_02/index.html"><button>Back to learn HTML (DAY_02)</button></a> 
 </body>
 </html>
