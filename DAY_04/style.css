@@ -1,0 +1,10 @@
+/* button style */
+.btn{
+    border: 2px solid;
+    padding: 10px 25px;
+    background-color: blueviolet;
+    color:aliceblue;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
